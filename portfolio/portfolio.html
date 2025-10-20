@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .about img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #f4f4f4;
+      margin: 5px 0;
+      padding: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+    }
+    .project img {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>NITHISH KUMAR</h1>
+    <p>Web Developer | Designer | Programmer</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="./nithishphoto.jpg" alt="Your Photo">
+    <p>Hello! I’m a passionate web developer with skills in building modern and responsive websites. I love learning new technologies and solving problems with code.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="https://s3-alpha.figma.com/hub/file/3682417694/2428b71e-8059-455d-9a31-c44236f981ec-cover.png" alt="Project 1">
+      <h3>🗳️ Online Voting System</h3>
+      <p>Developed a secure web-based voting platform that enables users to register, log in, and cast votes electronically. The system ensures authentication, data privacy, and one-time voting using unique credentials. Built using HTML, CSS, JavaScript, Node.js, and MongoDB, it streamlines election management and improves transparency and efficiency.</p>
+    </div>
+    <div class="project">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.htiKABaBPrev6oyeYREYzwAAAA?cb=12&w=300&h=300&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Project 2">
+      <h3>💼 Job Portal System</h3>
+      <p>Created a dynamic job portal that connects job seekers with recruiters. Users can create profiles, upload resumes, search and apply for jobs, while recruiters can post openings and review applications. Implemented using HTML, CSS, JavaScript, Node.js, and MongoDB, the platform enhances hiring efficiency and simplifies the recruitment process.</p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" download>Download My Resume (PDF)</a></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
